@@ -1,0 +1,80 @@
+{
+  "id": "92ecdc34-a7cf-480f-ad9d-256d0e9e8500",
+  "version": "2.0",
+  "name": "app-test",
+  "url": "https://tasks-rhos-devsecops.dc-ig-lib-ga-1589529604-f72ef11f3ab089a8c677044eb28292cd-0000.au-syd.containers.appdomain.cloud",
+  "tests": [{
+    "id": "de82243e-4cd9-4236-9249-ff16866083dd",
+    "name": "apptest",
+    "commands": [{
+      "id": "0174093c-01c3-4e32-bc5d-8c4d6cef0f5e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2aaf1237-0ae0-4efd-ab75-72002387da66",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x838",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9cf1c85c-b6bc-434a-adb1-0f0415257453",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) span:nth-child(2)",
+      "targets": [
+        ["css=li:nth-child(2) span:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='main-navbar']/ul/li[2]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e75a56f8-f309-48d3-b9aa-3137f73501ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(3) span:nth-child(2)",
+      "targets": [
+        ["css=li:nth-child(3) span:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='main-navbar']/ul/li[3]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "466f4f17-5a33-4ad3-a38d-39a2775a1f07",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) span:nth-child(2)",
+      "targets": [
+        ["css=li:nth-child(2) span:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='main-navbar']/ul/li[2]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a2dc102-dab1-4fd8-9d38-df72f157dcd7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(1)",
+      "targets": [
+        ["css=.btn:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='search-owner-form']/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ccdb6c23-527e-4f00-8ad8-64ddd4b14d47",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["de82243e-4cd9-4236-9249-ff16866083dd"]
+  }],
+  "urls": ["https://tasks-rhos-devsecops.dc-ig-lib-ga-1589529604-f72ef11f3ab089a8c677044eb28292cd-0000.au-syd.containers.appdomain.cloud/"],
+  "plugins": []
+}
